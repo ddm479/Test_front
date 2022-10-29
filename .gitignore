@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# https, certification
+localhost+1-cert.pem
+localhost+1-key.pem
+bitwise.ljlee37.com-key.pem
+bitwise.ljlee37.com.pem
+ljlee37.com-key.pem
+ljlee37.com.pem
+www.ljlee37.com-key.pem
+www.ljlee37.com.pem
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
